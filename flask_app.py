@@ -53,3 +53,6 @@ def circle():
             return render_template('circle.html', printed_result="Cannot perform operation with this input")
     
     return render_template('circle.html', printed_result="")
+
+if __name__ == '__main__':
+    app.run(debug=True)
